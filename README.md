@@ -2,7 +2,7 @@
 
 This repository is a playground for consolidating ideas from [Chapter 7 — Inference with Low-Dimensional Distribution](https://ma-lab-berkeley.github.io/deep-representation-learning-book/Ch7.html) of *Principles and Practice of Deep Representation Learning*.
 
-The main artifact is [`experiments.ipynb`](experiments.ipynb). It connects score-based diffusion, classifier-free guidance (CFG), and Gaussian mixture models (GMMs) to Transformer-style architectures—showing how multi-head cross attention can serve as a functional form for both unconditional and conditional denoisers, and why that resemblance matters for modern inference.
+The main artifact is [`experiments.ipynb`](experiments.ipynb). It connects score-based diffusion, classifier-free guidance (CFG), and Gaussian mixture models (GMMs) to Transformer-style architectures—showing how multi-head cross attention can serve as a functional form for both unconditional and conditional denoisers, and why that resemblance matters for modern inference problem.
 
 ## Motivation
 
