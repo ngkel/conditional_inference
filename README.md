@@ -16,9 +16,7 @@ In diffusion-based inference, sampling reverses a forward noising process. The s
 
 **Classifier-free guidance (CFG)** blends unconditional and conditional denoisers:
 
-$$\bar{\boldsymbol{x}}_\theta^{\text{CFG}}(t, \boldsymbol{x}_t, y)
-  = (1-\gamma)\,\bar{\boldsymbol{x}}_\theta(t, \boldsymbol{x}_t, \varnothing)
-  + \gamma\,\bar{\boldsymbol{x}}_\theta(t, \boldsymbol{x}_t, y)$$
+$$\bar{\boldsymbol{x}}_\theta^{\text{CFG}}(t, \boldsymbol{x}_t, y) = (1-\gamma)\,\bar{\boldsymbol{x}}_\theta(t, \boldsymbol{x}_t, \varnothing) + \gamma\,\bar{\boldsymbol{x}}_\theta(t, \boldsymbol{x}_t, y)$$
 
 with guidance scale $\gamma > 1$.
 
